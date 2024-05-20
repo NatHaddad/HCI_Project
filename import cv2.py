@@ -9,7 +9,7 @@ upper_black = np.array([180, 255, 50])
 lower_white = np.array([0, 0, 200])
 upper_white = np.array([180, 30, 255])
 
-cap = cv2.VideoCapture(2)
+cap = cv2.VideoCapture(0)
 
 while True:
     ret, frame = cap.read()
